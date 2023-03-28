@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fundo1{
+    background-repeat: repeat-x;
+    background-image: url("Batman.png");
+    background-size: contain;
+    border: solid red;
+    height: 300px;
+    width: 100%px;
+}
+
+.fundo2{
+    background-repeat: repeat-y;
+    background-image: url("Batman.png");
+    background-size: contain;
+    border: solid red;
+    height: 900px;
+    width: 300px;
+}
+
+.fundo3{
+    background-repeat: no-repeat;
+    background-image: url("Batman.png");
+    background-size: contain;
+    border: solid red;
+    height: 300px;
+}
+
+.fundo4{
+    background-repeat: repeat;
+    background-image: url("Batman.png");
+    background-size: contain;
+    border: solid red;
+    height: 300px;
+}
+
+.central{
+    text-align: center;
+}
+
+.fundo5{
+    background-repeat: repeat;
+    background-image: url("d3ef55545807fd2af7093d3d407d93e8.png");
+    background-size: contain;
+    border: solid red;
+    height: 300px;
+}
+
+.fundo6{
+    background-repeat: no-repeat;
+    background-image: url("d3ef55545807fd2af7093d3d407d93e8.png");
+    background-size: contain;
+    border: solid red;
+    height: 400px;
+}
+
+.fundo7{
+    background-size: cover;
+    background-image: url("d3ef55545807fd2af7093d3d407d93e8.png");
+    border: solid red;
+    height: 300px;
+    width: 100px;
+}
+
+.fundo8{
+    background-size: cover;
+    background-image: url("d3ef55545807fd2af7093d3d407d93e8.png");
+    background-repeat: no-repeat;
+    border: solid red;
+    height: 300px;
+    width: 400px;
+}
+
+.fundo9{
+    background-size: 25%;
+    background-image: url("d3ef55545807fd2af7093d3d407d93e8.png");
+    border: solid red;
+    height: 500px;
+}
+
+.fundo10{
+    background-repeat: no-repeat;
+    background-image: url("Batman.png");
+    background-size: contain;
+    background-position: right;
+    border: solid red;
+    height: 300px;
+}
+
+.fundo11{
+    background-repeat: no-repeat;
+    background-image: url("Batman.png");
+    background-size: contain;
+    background-position: center;
+    border: solid red;
+    height: 300px;
+}
+
+.fundo12{
+    background-repeat: no-repeat;
+    background-image: url("Batman.png");
+    background-size: contain;
+    background-position: left;
+    border: solid red;
+    height: 300px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 3em;
+}
+
+ul{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+li{
+    margin-top: 5px;
+}
+
+

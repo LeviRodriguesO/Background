@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <title>Background</title>
+</head>
+<body>
+    <h1>Background</h1>
+    <p>Define um fundo para nosso elemento</p>
+
+    <h2>Back ground repeat (eixo X e Y)</h2>
+
+    <p>Para adicionarmos um fundo para um elemento podemos usar a propriedade Background image. Por padrão podemos a imagem vai se repetir no eixo x, podemos mudar essa propriedade usando background-repeat.</p>
+
+    <p>background-repeat: repeat-x; repete no eixo horizontal.</p>
+    <div class="fundo1"></div>
+
+    <p>background-repeat: repeat-y; repete no eixo vertical.</p>
+    <div class="fundo2"></div>
+
+    <h2>Background-repeat: Repeat e No-Repeat</h2>
+
+    <p>background-repeat: No-Repeat;</p>
+    <div class="fundo3"></div>
+
+    <p>background-repeat: Repeat;</p>
+    <div class="fundo4"></div>
+
+    <p>Outros tipos de Background repeat que você pode usar.</p>
+
+    <ul>
+        <li>bakcground-repeat: repeat-space;</li>
+        <li>bakcground-repeat: repeat repeat;</li>
+        <li>bakcground-repeat: round space;</li>
+        <li>bakcground-repeat: no-repeat round;</li>
+    </ul>
+
+    <h2>Background-size: contain;</h2>
+    <p>Ela dimensiona a sua imagem dentro do container o máxima possível sem cortar ou esticar a imagem. Caso queira que a imagem não se repita, utilize a propriedade background-repeat: no repeat; Back ground-size: contain vai sempre amostrar 100% da imagem idependente do tamanho dela.</p>
+
+    <p class="central">background-size: contain;</p>
+    <section id="display">
+        <div class="fundo5"></div>
+        <div class="fundo6"></div>
+    </section>
+
+    <h2>Background-size: cover;</h2>
+    <p>Ele dimensiona a imagem, enquanto preserva sua proporção, para o menor tamanho possível para preencher o container. Ou seja, sua altura e largura cobrem completamente o container, não deixando espaço em branco. Se as proporções do plano de fundo forem diferentes do elemento, a imagem será cortada verticalmente ou horizontalmente.</p>
+
+    <div class="fundo7"></div>
+    <div class="fundo8"></div>
+
+    <h2>Background-size: valor;</h2>
+    <p>Ele estica a imagem na dimensão correspondente ao comprimento especificado. <strong>Valores negativos não são permitidos.</strong></p>
+    <p>Podemos usar dois valores, o primeiro para largura da imagem e o segundo para altura.</p>
+
+    <div class="fundo9"></div>
+
+    <h2>Background-position: valor;</h2>
+    <p>Com a propriedade background-position podemos mudar a posição da imagem do background.</p>
+
+    <ul>
+        <li>background-position: top;</li>
+        <li>background-position: bottom;</li>
+        <li>background-position: left;</li>
+        <li>background-position: right;</li>
+        <li>background-position: center;</li>
+    </ul>
+
+    <div class="fundo10"></div>
+    <div class="fundo11"></div>
+    <div class="fundo12"></div>
+
+</body>
+</html>
